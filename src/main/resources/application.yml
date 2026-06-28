@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: aisdlc-backend
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sdlc
+    username: sdlc
+    password: sdlc
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+server:
+  port: 8080
